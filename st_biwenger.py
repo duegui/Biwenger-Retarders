@@ -20,8 +20,8 @@ st.header("Jornada LaLiga EA Sports: 1")
 
 image = Image.open('foto.jpeg')
 
-st.sidebar.subheader('Retarders de la jornada')
-st.sidebar.image(image, caption='Two guys in the mountain')
+st.subheader('Retarders de la jornada')
+st.image(image, caption='Two guys in the mountain')
 
 
 st.write('\n')
