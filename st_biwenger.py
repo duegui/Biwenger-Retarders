@@ -10,5 +10,5 @@ for i in range(38):
 
 jornada = 1
 
-st.header("Jornada LaLiga EA Sports: " + jornadaea[jornada])
+st.header("Jornada LaLiga EA Sports: 1")
 st.subheader('Retarder de la jornada: Maniancra Team')
