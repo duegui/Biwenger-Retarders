@@ -11,4 +11,10 @@ for i in range(38):
 jornada = 1
 
 st.header("Jornada LaLiga EA Sports: 1")
-st.subheader('Retarder de la jornada: Maniancra Team')
+
+from PIL import Image
+
+image = Image.open('foto.jpeg')
+
+st.subheader('Retarders de la jornada')
+st.image(image, caption='Two guys in the mountain')
