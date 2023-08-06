@@ -1,9 +1,14 @@
 import streamlit as st
 
-st.header("dando forma a esto")
+st.title("Las noticias retarder")
 
-"cojojones"
+jornadaea = {}
 
-"coass"
+for i in range(38):
+    jornadaea[i+1] = []
 
-"quick update"
+
+jornada = 1
+
+st.header("Jornada LaLiga EA Sports: " + jornadaea[jornada])
+st.subheader('Retarder de la jornada: Maniancra Team')
